@@ -27,3 +27,6 @@ Generate fake data for fields in json
 
 use in tests
 
+random generation syntax
+
+json composition syntax

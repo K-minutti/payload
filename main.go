@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 	"github.com/jaswdr/faker"
-	"json"
+	"encoding/json"
 	"os"
 	"text/template"
 	"time"
@@ -45,7 +45,7 @@ func ParseWith(body, values string) string {
 
 	var r bytes.Buffer
 
-	err = t.Execute(&r, d)
+	err = t.Execute(&r, m)
 	if err != nil {
 		panic(err)
 	}

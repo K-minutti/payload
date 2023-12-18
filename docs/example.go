@@ -21,4 +21,12 @@ func main() {
 
     s := payload.Parse(data)
     fmt.Println(s)
+
+    // api payload test
+
+    // function - struct level test
+
+    // generate w/ target
+    // insomnia - {% uuid 'v4' %}
+    // postman - {{$guid}}
 }
